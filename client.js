@@ -1,4 +1,4 @@
-import { SimplifyModifier } from "./node_modules/super-three/examples/jsm/modifiers/SimplifyModifier.js"
+import { SimplifyModifier } from "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/js/modifiers/SimplifyModifier.js"
 var modifer = new SimplifyModifier();
 var sceneEl = document.querySelector('a-scene').object3D;
 var scene = sceneEl
